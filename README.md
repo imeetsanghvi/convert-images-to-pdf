@@ -14,7 +14,7 @@ Inside if main:
 1.	Line 19 & 20 – are path to the output_pdf file and input_image_folder respectively 
 2.	We pass both the path to the imgs2pdf function 
 3.	Inside imgs2pdf function 		
-    In line 6 - we open the pdf file as write byte 		
-    (if file exists, it opens the file else it creates a new file with the name provided) 		In line 7 - we write to the file the images 		In line 8 and 9 - we get all the images which have extension ‘.jpg’ or ‘.png’ from the folder path using os.listdir   
-    
-    This creates a pdf file in the path provided with all the jpg and png images into a single pdf file
+3.1 In line 6 - we open the pdf file as write byte(if file exists, it opens the file else it creates a new file with the name provided) 	
+3.2 In line 7 - we write to the file the images 		
+3.3 In line 8 and 9 - we get all the images which have extension ‘.jpg’ or ‘.png’ from the folder path using os.listdir   
+This creates a pdf file in the path provided with all the jpg and png images into a single pdf file
